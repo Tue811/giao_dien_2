@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="/vendors/boostrap5.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/headerStyle/header.css">
+    <link rel="stylesheet" href="/style/navbarStyle/navbar.css">
+    <link rel="stylesheet" href="/style/footerStyle/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <HeaderComponent></HeaderComponent>
+    <section>
+        <div class="body">
+            <div class="container">
+                <div class="detail-product">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 col-md-6">
+                            <div id="carouselExample" class="carousel slide carousel-product">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/img/hoodie_4_front-768x768.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/hoodie_4_back-768x768.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                                <div class="btn-full-img">
+                                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                                </div>
+                                <div class="add-wishlist">
+                                    <i class="fa-regular fa-circle-heart"></i>
+                                </div>
+                            </div>
+
+                            <div class="img-slide-products" id="slide-img">
+                                <img class="slide-product" src="/img/hoodie_4_front-768x768.jpg" alt="">
+                                <img class="slide-product" src="/img/hoodie_4_back-768x768.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-md-6">
+                            <div class="link-title">
+                                HOME / SHOP / CLOTHING / HOODIES
+                            </div>
+                            <div class="category-title">
+                                Happy Ninja
+                                <div class="is-divider">
+                                </div>
+                            </div>
+                            <div class="product-price">
+                                <sup>$</sup><span>35,00</span>
+                            </div>
+                            <div class="product-content">
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                                    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
+                                    tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+                                    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                            </div>
+                            <div class="quantity-and-add">
+                                <div class="product-quantity">
+                                    <button class="minus">-</button>
+                                    <input class="number" type="text" Value="1">
+                                    <button class="plus">+</button>
+                                </div>
+                                <div class="product-add-to-cart">
+                                    <button type="button" class="btn">ADD TO CART</button>
+                                </div>
+                            </div>
+
+                            <div class="product-categories">
+                                Categories: <span>Clothing, Hoodies</span>
+                            </div>
+                            <div class="product-mail">
+                                <i class="fa-sharp fa-light fa-circle-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 prev-and-next-product">
+                            <i class="fa-thin fa-circle-chevron-left"></i>
+                            <i class="fa-thin fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="product-description-and-reviews">
+                    <div class="group-btn-evaluate">
+                        <button onclick="onDesProduct()">DESCRIPTION</button>
+                        <button onclick="onReviewsProduct()">REVIEWS (0)</button>
+                    </div>
+                    <div class="product-description-and-reviews-content">
+                        <div id="product-des-content">
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas.
+                            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                            Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+                            eleifend leo.
+                        </div>
+                        <div id="product-reviews-content">
+                            <b>Reviews</b><br>
+                            There are no reviews yet.
+                            <div class="product-reviews-form-inner">
+                                <b>Be the first to review “Happy Ninja” </b>
+                                <p>You must be logged in to post a review.</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+                <div class="products-related">
+                    <h3>RELATED PRODUCTS</h3>
+                    <div class="list-products">
+                        <div class="slick-container">
+
+                            <div class="box-product">
+                                <div class="card-product">
+                                    <div class="card-product-img">
+                                        <img src="/img/1.jpg" alt="">
+                                        <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                    </div>
+                                    <div class="card-product-add-wishlist">
+                                        <i class="fa-regular fa-circle-heart"></i>
+                                    </div>
+                                    <div class="card-product-text-quickview">
+                                        <h5>QUICK VIEW</h5>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-info-product">
+                                    <div class="category-product">
+                                        CLOTHING
+                                    </div>
+                                    <div class="name-product">
+                                        Woo Ninja
+                                    </div>
+                                    <div class="price-product">
+                                        $35,00
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box-product">
+                                <div class="card-product">
+                                    <div class="card-product-img">
+                                        <img src="/img/1.jpg" alt="">
+                                        <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                    </div>
+                                    <div class="card-product-add-wishlist">
+                                        <i class="fa-regular fa-circle-heart"></i>
+                                    </div>
+                                    <div class="card-product-text-quickview">
+                                        <h5>QUICK VIEW</h5>
+                                    </div>
+                                </div>
+                                <div class="card-info-product">
+                                    <div class="category-product">
+                                        CLOTHING
+                                    </div>
+                                    <div class="name-product">
+                                        Woo Ninja
+                                    </div>
+                                    <div class="price-product">
+                                        $35,00
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-product">
+                                <div class="card-product">
+                                    <div class="card-product-img">
+                                        <img src="/img/1.jpg" alt="">
+                                        <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                    </div>
+                                    <div class="card-product-add-wishlist">
+                                        <i class="fa-regular fa-circle-heart"></i>
+                                    </div>
+                                    <div class="card-product-text-quickview">
+                                        <h5>QUICK VIEW</h5>
+                                    </div>
+                                </div>
+                                <div class="card-info-product">
+                                    <div class="category-product">
+                                        CLOTHING
+                                    </div>
+                                    <div class="name-product">
+                                        Woo Ninja
+                                    </div>
+                                    <div class="price-product">
+                                        $35,00
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box-product">
+                                <div class="card-product">
+                                    <div class="card-product-img">
+                                        <img src="/img/1.jpg" alt="">
+                                        <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                    </div>
+                                    <div class="card-product-add-wishlist">
+                                        <i class="fa-regular fa-circle-heart"></i>
+                                    </div>
+                                    <div class="card-product-text-quickview">
+                                        <h5>QUICK VIEW</h5>
+                                    </div>
+                                </div>
+                                <div class="card-info-product">
+                                    <div class="category-product">
+                                        CLOTHING
+                                    </div>
+                                    <div class="name-product">
+                                        Woo Ninja
+                                    </div>
+                                    <div class="price-product">
+                                        $35,00
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box-product">
+                                <div class="card-product">
+                                    <div class="card-product-img">
+                                        <img src="/img/1.jpg" alt="">
+                                        <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                    </div>
+                                    <div class="card-product-add-wishlist">
+                                        <i class="fa-regular fa-circle-heart"></i>
+                                    </div>
+                                    <div class="card-product-text-quickview">
+                                        <h5>QUICK VIEW</h5>
+                                    </div>
+                                </div>
+                                <div class="card-info-product">
+                                    <div class="category-product">
+                                        CLOTHING
+                                    </div>
+                                    <div class="name-product">
+                                        Woo Ninja
+                                    </div>
+                                    <div class="price-product">
+                                        $35,00
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <FooterComponent></FooterComponent>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="/vendors/boostrap5.0.3/js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/3426ec3618.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+<script type="text/javascript" src="/js/product.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slick-container').slick({
+            slidesToShow: 4,
+        });
+    });
+</script>
+
+</html>

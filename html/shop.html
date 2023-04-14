@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="/vendors/boostrap5.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/headerStyle/header.css">
+    <link rel="stylesheet" href="/style/navbarStyle/navbar.css">
+    <link rel="stylesheet" href="/style/footerStyle/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <HeaderComponent></HeaderComponent>
+        <section>
+            <div class="body">
+                <div class="container">
+                    <div class="link-title">
+                       <div> HOME / <span>SHOP</span></div>
+                       <div class="filter" id="btn-filter" onclick="onFilter()"><i class="fa-regular fa-filter-list"></i> FILTER</div>
+                    </div>
+                    <div class="body-products" >
+                        <div class="row">
+                            <NavbarComponent class="col-lg-3 col-md-3 col-sm-12"> </NavbarComponent>
+                            <div class="col-lg-9 col-md-9 col-sm-12 list-categories-products">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/hoodie_4_front-494x593.jpg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>CLOTHING</h5>
+                                                <P>12 PRODUCTS</P>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/women.jpeg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>WOMEN</h5>
+                                                <P>18 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/booking-494x593.jpg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>BOOKING</h5>
+                                                <P>6 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/men.jpeg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>MEN</h5>
+                                                <P>9 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/bags.jpeg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>BAGS</h5>
+                                                <P>6 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/music.jpg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>MUSIC</h5>
+                                                <P>6 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/poster.jpg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>POSTERS</h5>
+                                                <P>5 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-product">
+                                            <div class="card-product-img">
+                                                <img src="/img/shoes2.jpg" alt="">
+                                            </div>
+                                            <div class="card-product-text">
+                                                <h5>SHOES</h5>
+                                                <P>7 PRODUCTS</P>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    <FooterComponent></FooterComponent>
+</body>
+<script type="text/javascript" src="/vendors/boostrap5.0.3/js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/3426ec3618.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/shop.js"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+</html>

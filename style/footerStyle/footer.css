@@ -1,0 +1,186 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.footer-top {
+  padding-top: 30px;
+}
+
+.category-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+.category-title .is-divider {
+  height: 3px;
+  display: block;
+  background-color: #f1f1f1;
+  margin: 1em 0 1em;
+  width: 100%;
+  max-width: 30px;
+}
+
+.recently-view-category .card {
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 15px;
+  border-radius: 0;
+}
+.recently-view-category .card img {
+  height: 100%;
+}
+.recently-view-category .card .card-text {
+  font-weight: bold;
+}
+.recently-view-category .card .card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-middle {
+  background-color: #777;
+  color: #f1f1f1;
+  padding: 30px 0;
+}
+.footer-middle .category-title {
+  color: #f1f1f1;
+}
+
+.about-us-contact {
+  display: flex;
+  justify-content: center;
+}
+.about-us-contact div {
+  padding: 5px 12px;
+  margin: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+.about-us-contact i {
+  font-size: 1em;
+}
+
+.lates-news-card {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  padding: 10px 0;
+}
+.lates-news-card .news-date {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0 7px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.final {
+  border-bottom: none;
+}
+
+.tags-content button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  margin: 5px 3px 0 0;
+}
+
+.input-signup {
+  padding: 15px 0;
+}
+.input-signup input {
+  background-color: #929292;
+  border: none;
+  border-radius: 20px;
+}
+.input-signup ::-moz-placeholder {
+  color: white !important;
+}
+.input-signup ::placeholder {
+  color: white !important;
+}
+
+.btn-signup button {
+  background-color: #446084;
+  color: white;
+  border-radius: 20px;
+}
+
+.footer-bottom {
+  background-color: #5b5b5b;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85em;
+}
+
+.footer-bottom-right-top-menu {
+  display: flex;
+}
+.footer-bottom-right-top-menu .text {
+  padding: 5px 10px 0 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom-right-copyright {
+  margin-bottom: 10px;
+}
+.footer-bottom-right-copyright span {
+  font-weight: bold;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.payment-methods i {
+  font-size: 2.6em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us, .lates-news, .tags, .newsletter {
+    padding-bottom: 20px;
+  }
+  .recently-view-category .card .row .col-md-8, .recently-view-category .col-md-4 {
+    width: auto;
+    flex-direction: row !important;
+  }
+  .footer-bottom {
+    padding: 20px 0;
+  }
+  .footer-bottom .container .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-bottom .container .row .payment-methods {
+    justify-content: center;
+  }
+  .footer-bottom .container .row .footer-bottom-right-top-menu {
+    justify-content: center;
+  }
+  .footer-bottom .container .row .footer-bottom-right-copyright {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .footer-bottom {
+    padding: 20px 0;
+  }
+  .footer-bottom .container .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-bottom .container .row .payment-methods {
+    justify-content: center;
+  }
+  .footer-bottom .container .row .footer-bottom-right-top-menu {
+    justify-content: center;
+  }
+  .footer-bottom .container .row .footer-bottom-right-copyright {
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

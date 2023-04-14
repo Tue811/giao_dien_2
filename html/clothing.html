@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing</title>
+    <link rel="stylesheet" href="/vendors/boostrap5.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/headerStyle/header.css">
+    <link rel="stylesheet" href="/style/navbarStyle/navbar.css">
+    <link rel="stylesheet" href="/style/footerStyle/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <HeaderComponent></HeaderComponent>
+        <section>
+            <div class="body">
+                <div class="container">
+                    
+                    <div class="link-title">
+                       <div> HOME / SHOP / <span>CLOTHING</span></div>
+                       <div class="filter" id="btn-filter" onclick="onFilter()"><i class="fa-regular fa-filter-list"></i> FILTER</div>
+                       <div class="filter-products">
+                        <div class="text-filter">Showing all 12 results</div>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle btn-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Default sorting
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Sort by popularity</a></li>
+                              <li><a class="dropdown-item" href="#">Sort by Average rating </a></li>
+                              <li><a class="dropdown-item" href="#">Sort by latest</a></li>
+                              <li><a class="dropdown-item" href="#">Sort by price: low to high</a></li>
+                              <li><a class="dropdown-item" href="#">Sort by price: high to low</a></li>
+                            </ul>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="body-products">
+                        <div class="row">
+                            <NavbarComponent class="col-lg-3 col-md-3 col-sm-12"> </NavbarComponent>
+                            <div class="col-lg-9 col-md-12 col-sm-12 list-categories-products">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="box-product">
+                                            <div class="card-product">
+                                                <div class="card-product-img">
+                                                    <img src="/img/1.jpg" alt="">
+                                                    <img src="/img/hoodie_4_front-494x593.jpg" alt="" class="img-change">
+                                                </div>
+                                                <div class="card-product-add-wishlist">
+                                                    <i class="fa-regular fa-circle-heart"></i>
+                                                </div>
+                                                <div class="card-product-text-quickview">
+                                                    <h5>QUICK VIEW</h5>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="card-info-product">
+                                                <div class="category-product">
+                                                    CLOTHING
+                                                </div>
+                                                <div class="name-product">
+                                                    Woo Ninja
+                                                </div>
+                                                <div class="price-product">
+                                                    $35,00
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                   
+                                </div>
+                                <hr>
+                                <p class="note-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    <FooterComponent></FooterComponent>
+</body>
+<script type="text/javascript" src="/vendors/boostrap5.0.3/js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/3426ec3618.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/shop.js"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/footer.js"></script>
+</html>
