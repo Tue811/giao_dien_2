@@ -78,6 +78,8 @@ section{
 
   }
 
+ 
+
   .menu-pages{
     width:  200px ;  }
   
@@ -90,7 +92,10 @@ section{
     border-bottom: 1px solid #ececec ;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover { 
+    background-color: rgba(0,0,0,0);
+    color: ;
+  }
   
   .dropdown:hover .dropdown-content {display: block;}
   

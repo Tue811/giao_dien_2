@@ -83,7 +83,7 @@ section {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .dropdown:hover .dropdown-content {
