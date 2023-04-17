@@ -30,6 +30,9 @@
 .body-products {
   padding-top: 30px;
 }
+.body-products a {
+  text-decoration: none;
+}
 
 .card-product {
   width: 100%;
@@ -320,6 +323,7 @@ img {
   padding: 10px 0 20px 0;
 }
 .box-product .card-info-product .category-product {
+  color: rgba(102, 102, 102, 0.85);
   font-size: 0.75em;
   opacity: 0.7;
 }
